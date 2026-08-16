@@ -64,10 +64,10 @@ If the code is run in a different MATLAB release, figure-formatting behavior and
 
 ## How to run
 
-1. Place `Main.m` and all required `.m` files in the same working directory or on the MATLAB path.
+1. Place `Main.mlx` and all required `.mlx, .m` files in the same working directory or on the MATLAB path.
 2. Open MATLAB in the repository root.
 3. Edit any output filenames if figure export is desired.
-4. Run `Main.m`.
+4. Run `Main.mlx`.
 
 ## Output
 
@@ -90,7 +90,7 @@ Diagnostic plots are intentionally retained in commented form in several functio
 
 ## Reproducibility notes
 
-To reproduce the paper results, keep the random seeds and problem parameters in `Main.m` unchanged unless a different case study is intended. In particular:
+To reproduce the paper results, keep the random seeds and problem parameters in `Main.mlx` unchanged unless a different case study is intended. In particular:
 
 - the urban graph size
 - the wind magnitude bound
