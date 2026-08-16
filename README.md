@@ -19,17 +19,17 @@ The code is organized so that the main script drives the experiment and the supp
 ## Files
 
 ### Main script
-- `Main.m`  
+- `Main.mlx`  
   Runs the full sequential planning and estimation experiment. This is the script to execute first.
 
 ### Supporting functions
-- `citymap.m`  
+- `citymap.mlx`  
   Builds the urban graph, node coordinates, edge distances, and nominal directed wind matrix.
 
-- `plotwindfield.m`  
+- `plotwindfield.mlx`  
   Visualizes the directed wind field on the graph.
 
-- `windgen.m`  
+- `windgen.mlx`  
   Generates the latent temporal driving signal and directional modulation used in the simulation.
 
 - `Dijkstra.m`  
@@ -38,13 +38,13 @@ The code is organized so that the main script drives the experiment and the supp
 - `crosswind.m`  
   Computes the crosswind correction used during edge traversal.
 
-- `windstitch_optimizer.m`  
+- `windstitch_optimizer.mlx`  
   Objective function used when optimizing the stitching parameters.
 
-- `windrestitch.m`  
+- `windrestitch.mlx`  
   Reconstructs the latent temporal signal by sequentially stitching fitted edge segments.
 
-- `windstitch_variable.m`  
+- `windstitch_variable.mlx`  
   Stitches one fitted edge segment onto the current reconstructed signal.
 
 - `make_nice_figures.m`  
